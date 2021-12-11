@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Слайдер | Проект 3</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div style="background: linear-gradient(229.99deg, #323b3d -15%, #3d4327 50%);">
+          <h1> Сначала — водопады, потом — серьга в хоботе, а потом подсядет на ягоды!</h1>
+          <p>Любовь, смерть и роботы</p>
+        </div>
+        <div style="background: linear-gradient(215.32deg, #222725 1%, #344439 95%);">
+          <h1>Капля правды обязана стать водопадом.</h1>
+          <p>Любовь, смерть и роботы</p>
+        </div>
+        <div style="background: linear-gradient(221.87deg, #9C9AB8 1%, #ACB2D4 128%);">
+          <h1>Без бурных рек не встретится и водопадов.</h1>
+          <p>Любовь, смерть и роботы</p>
+        </div>
+        <div style="background: linear-gradient(220.16deg, #2bb2c4 -8%, #F39102 138%);">
+          <h1>Говорят, что люди, живущие рядом с водопадом, не слышат шума воды.</h1>
+          <p>Алексей Иванов, “Географ глобус пропил”</p>
+        </div>
+      </div>
+      <div class="main-slide">
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1606516397986-1eeb79e8c052?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1506261423908-ea2559c1f24c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1484&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1577388148647-0e55a1445f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1508131482539-2b57b21ca1ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+          "
+        ></div>
+      </div>
+      <div class="controls">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  <script src="app.js"></script>
+  </body>
+</html>
